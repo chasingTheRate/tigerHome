@@ -9,7 +9,7 @@ services:
   web-api:
     image: aeroag/tiger-home-web-api
     ports:
-      - 8083:8083
+      - 8082:8082
     depends_on:
       - "rabbitmq"
     links: 
